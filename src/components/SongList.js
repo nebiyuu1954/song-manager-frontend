@@ -5,7 +5,6 @@ import { fetchSongs, deleteSong } from '../redux/songSlice';
 import styled from '@emotion/styled';
 import { theme } from '../styles/theme';
 
-// Apply global box-sizing
 const GlobalStyles = styled.div`
   *, *:before, *:after {
     box-sizing: border-box;
