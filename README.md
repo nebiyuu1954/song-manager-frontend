@@ -8,19 +8,24 @@ A React app for managing songs with pagination, search, sort, and CRUD operation
 
 Node.js (v16+)
 
-Backend API (e.g., http://localhost:8000/api/songs/ or deployed)
+Backend API (e.g., http://localhost:8000/api/songs/ )
 
 ## Installation
+
 
 git clone https://github.com/nebiyuu1954/song-manager-frontend.git
 
 cd song-manager-frontend
 
+```bash
 npm install
+```
 
-Running Locally
+### Running Locally
 
+```bash
 npm start
+```
 
 Access at http://localhost:8000. 
 - you have to sure backend is running and you have added data 
@@ -45,23 +50,23 @@ Uses Jest and React Testing Library to test SongList.js rendering (title, search
 
 Custom setup with:
 
-babel-loader: Transforms JSX/ES6+ (@babel/preset-env, @babel/preset-react).
+- babel-loader: Transforms JSX/ES6+ (@babel/preset-env, @babel/preset-react).
 
-style-loader, css-loader: Handles Emotion styles.
+- style-loader, css-loader: Handles Emotion styles.
 
-file-loader: Processes SVGs/images.
+- file-loader: Processes SVGs/images.
 
-Environment variables: API\_BASE\_URL from .env.
+- environment variables: API\_BASE\_URL from .env.
 
-Dev server: Runs at http://localhost:8080.
+- dev server: Runs at http://localhost:8080.
 
 ## AI Usage
 
 Used AI (Grok) to:
 
-Generate and Debug Webpack setup, jest-environment-jsdom, TextEncoder errors ,jest.config.js, and setupTests.js.
+- Generate and Debug Webpack setup, jest-environment-jsdom, TextEncoder errors ,jest.config.js, and setupTests.js.
 
-Verified via: npm test, npm start, API calls (postman), browser inspection for UI.
+- Verified via: npm test, npm start, API calls (postman), browser inspection for UI.
 
 ## API Endpoints
 ```http
