@@ -32,9 +32,11 @@ Access at http://localhost:8000.
 
 ## Testing
 
+```bash
 npm test
+```
 
-Uses Jest and React Testing Library to test SongList.js rendering (title, search bar, sort buttons, table headers, pagination).
+- Uses Jest and React Testing Library to test SongList.js rendering (title, search bar, sort buttons, table headers, pagination).
 
 ## Features
 
