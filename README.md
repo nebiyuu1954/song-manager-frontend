@@ -73,7 +73,7 @@ POST /api/songs/: Create song.
 ```
 
 ```http
-GET/PUT/PATCH/DELETE /api/songs/:id/: CRUD for a song.
+GET /PUT/PATCH/DELETE /api/songs/:id/: CRUD for a song.
 ```
 
 ## Dependencies
