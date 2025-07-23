@@ -7,7 +7,7 @@ import { theme } from '../styles/theme';
 import { ThemeProvider } from '@emotion/react';
 import { MemoryRouter } from 'react-router-dom';
 
-// Create a mock Redux store
+//create a mock Redux store to mock the state 
 const mockStore = configureStore([]);
 
 describe('SongList Component', () => {
